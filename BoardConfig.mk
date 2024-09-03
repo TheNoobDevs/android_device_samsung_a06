@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/samsung/a05m
+DEVICE_PATH := device/samsung/a06
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -29,7 +29,7 @@ TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a55
 DEXPREOPT_GENERATE_APEX_IMAGE := true
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := a05m
+TARGET_BOOTLOADER_BOARD_NAME := a06
 TARGET_NO_BOOTLOADER := true
 
 # Display
@@ -48,8 +48,8 @@ BOARD_MKBOOTIMG_ARGS += --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 BOARD_KERNEL_SEPARATED_DTBO := true
-TARGET_KERNEL_CONFIG := a05m_defconfig
-TARGET_KERNEL_SOURCE := kernel/samsung/a05m
+TARGET_KERNEL_CONFIG := a06_defconfig
+TARGET_KERNEL_SOURCE := kernel/samsung/a06
 
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true
@@ -120,4 +120,4 @@ TW_HAS_DOWNLOAD_MODE := true
 TW_EXCLUDE_APEX := true
 TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
-TW_MTP_DEVICE := "Galaxy A05"
+TW_MTP_DEVICE := "Galaxy A06"
