@@ -1,2 +1,2 @@
-# android_device_samsung_a05m
-TWRP Device Tree For Samsung Galaxy A05 (MediaTek)
+# android_device_samsung_a06
+TWRP Device Tree For Samsung Galaxy A06 (MediaTek)
